@@ -3,6 +3,7 @@ A simple shell within linux, maintainning environment variables and implement ba
 
 ![](./fig/1.png)
 ![](./fig/2.png)
+
 ### User Manual
 Command:
 * **·cd** [directory]: 
@@ -23,3 +24,9 @@ I/O redirection
 pipeline
 Program environment
 Background program execution
+
+
+
+
+it also support executable application in /user/bin 
+![](./fig/3.png)

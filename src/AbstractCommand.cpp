@@ -431,5 +431,5 @@ void Command_Environ::run()
     }
 }
 void Command_Help::run(){
-    system(("more "+MyShell::env["HELP_FILE"]).c_str());
+    system(("more "+MyShell::GetSingletonPtr()->env["HELP_FILE"]).c_str());
 }
