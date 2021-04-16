@@ -1,0 +1,19 @@
+用户手册
+命令（Command）：
+·cd [directory]：把当前工作目录改变为[directory目录参数]。若没有目录参数，显示当前目录；若该目录不存在，则输出错误信息。
+·clr：清屏。
+·dir [directory]：列出目录[directory]的内容。
+·echo [comment]：comment中的多个空格和制表符将被缩减为一个空格，在屏幕上显示。
+·exec：执行可执行文件，例如脚本、C语言源文件等。
+·quit：退出shell，支持参数形式。
+·exit：退出shell，不支持参数。
+·environ：列出所有的环境变量。
+·help：显示用户手册，并使用more命令过滤。
+·pwd：显示当前路径。
+·time：显示当前时间。
+·shift：
+
+I/O重定向
+管道
+程序环境
+后台程序执行
